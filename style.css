@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    height: 70px;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+
+/* Logo */
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ff6b00;
+}
+
+
+/* Login Button */
+
+.login-btn {
+    background: #ff6b00;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background: #e55d00;
+}
+
+
+/* Main Content */
+
+main {
+    text-align: center;
+    padding-top: 100px;
+}
+
+main h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+input {
+    width: 300px;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+main button {
+    padding: 13px 30px;
+    background: #ff6b00;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    min-height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.55),
+                        rgba(0, 0, 0, 0.55)),
+        url("images/bike.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    color: white;
+    max-width: 900px;
+    width: 90%;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+/* Trip Search Box */
+
+.trip-search {
+    background: white;
+    padding: 20px;
+
+    border-radius: 12px;
+
+    display: flex;
+    align-items: end;
+    gap: 15px;
+
+    max-width: 850px;
+    margin: auto;
+}
+
+
+/* Input Box */
+
+.input-box {
+    flex: 1;
+    text-align: left;
+}
+
+.input-box label {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 14px;
+
+    border: 1px solid #ccc;
+    border-radius: 7px;
+
+    font-size: 15px;
+}
+
+
+/* Plan Button */
+
+.plan-btn {
+    height: 47px;
+
+    padding: 0 25px;
+
+    background: #ff6b00;
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.plan-btn:hover {
+    background: linear-gradient(rgba(199, 65, 65, 0.55), rgba(179, 103, 103, 0.55)),
+    url("images/images.jpg");
+}
+/* =========================
+   TRIP PLANNER
+========================= */
+
+.planner {
+    min-height: 600px;
+    padding: 80px 20px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.planner h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.planner > p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+
+/* Planner Box */
+
+.planner-box {
+    background: white;
+
+    max-width: 700px;
+
+    margin: auto;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+
+    text-align: left;
+}
+
+
+/* Inputs */
+
+.planner-input {
+    margin-bottom: 20px;
+}
+
+.planner-input label {
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+    color: #333;
+}
+
+.planner-input input,
+.planner-input select {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+
+    background: white;
+}
+
+.planner-input small {
+    color: #777;
+}
+
+
+/* Create Trip Button */
+
+.calculate-btn {
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 10px;
+
+    background: #ff6b00;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.calculate-btn:hover {
+    background: #e55d00;
+}

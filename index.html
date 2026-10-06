@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideMate - Bike Trip Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <div class="logo">
+            🏍️ RideMate
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Plan Trip</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">My Trips</a></li>
+        </ul>
+
+        <button class="login-btn">Login</button>
+
+    </nav>
+
+
+    <!-- Main Content -->
+    <main>
+
+       <!-- Hero Section -->
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Plan Your Perfect Bike Trip</h1>
+
+        <p>
+            Discover new roads, calculate your trip cost,
+            and ride without limits.
+        </p>
+
+        <div class="trip-search">
+
+            <div class="input-box">
+                <label>From</label>
+                <input type="text" placeholder="Gazole">
+            </div>
+
+            <div class="input-box">
+                <label>To</label>
+                <input type="text" placeholder="Darjeeling">
+            </div>
+
+            <button class="plan-btn">
+                PLAN MY RIDE
+            </button>
+
+        </div>
+
+    </div>
+    <div class="trip-search">
+
+    <div class="input-box">
+        <label>📍 Starting Point</label>
+        <input
+            type="text"
+            id="start"
+            placeholder="Enter starting point"
+        >
+    </div>
+
+    <div class="input-box">
+        <label>🏁 Destination</label>
+        <input
+            type="text"
+            id="destination"
+            placeholder="Where do you want to go?"
+        >
+    </div>
+<button
+    class="plan-btn"
+    onclick="window.location.href='trip.html'"
+>
+    PLAN MY RIDE
+</button>
+</div>
+
+</section>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
